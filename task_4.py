@@ -13,4 +13,4 @@ else:
     penult_name = names_1.pop()
     for i in names_1:
         print(i, end=', ')
-    print (penult_name + ' & ' + last_name)
+    print(penult_name + ' & ' + last_name)

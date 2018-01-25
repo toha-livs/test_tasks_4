@@ -1,8 +1,8 @@
 
-f =[]
+f = []
 y = 1
 l = 0
-a = [70, 8, 20, 1, 13]
+a = [70, 8, 430, 52, 13]
 for i in a:
     y = 1
     if len(str(i)) >= 2:
@@ -13,11 +13,9 @@ for i in a:
     else:
         f.append(i)
 
-f.sort()
-n = sorted(f)
-n.reverse()
+f.sort(reverse=True)
 k = []
-for i in n:
+for i in f:
     y = 1
     if len(str(i)) >= 2:
         l = len(str(i)) - 2
@@ -27,7 +25,7 @@ for i in n:
     else:
         k.append(i)
 for i in range(len(k)):
-    print (k[i], end='')
+    print(k[i], end='')
 print()
 
 

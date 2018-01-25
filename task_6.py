@@ -2,7 +2,7 @@
 
 
 recipe = {"flour": 500, "sugar": 200, "eggs": 1}
-available = {"sugar": 4030, "eggs": 523, "milk": 20}
+available = {"flour": 523400, "sugar": 4030, "eggs": 523, "milk": 20}
 
 
 def count(a, b):
@@ -19,8 +19,7 @@ def count(a, b):
             except KeyError:
                 return 0
     result.sort()
-    result_1 = sorted(result)
-    return int(result_1[0])
+    return int(result[0])
 
 
 print(count(recipe, available))
