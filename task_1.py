@@ -16,15 +16,13 @@ for i in a:
         color.append(i)
 color.sort()
 integer.sort()
-new_color = sorted(color)
-new_integer = sorted(integer)
 for i in range(1):
     for f in count_col:
         count_2 += 1
-        a[f] = new_color[count_2]
+        a[f] = color[count_2]
     for f in count_int:
         count_3 += 1
-        a[f] = new_integer[count_3]
+        a[f] = integer[count_3]
 print(a)
 
 

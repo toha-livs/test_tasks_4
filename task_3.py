@@ -12,7 +12,6 @@ for i in a:
         f.append(int(i) / y)
     else:
         f.append(i)
-
 f.sort(reverse=True)
 k = []
 for i in f:
